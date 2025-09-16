@@ -1,0 +1,153 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", serif;
+  background: #0c0c0c url('https://www.transparenttextures.com/patterns/dark-fabric.png');
+  color: #e8e8e8;
+  line-height: 1.7;
+}
+
+/* HEADER */
+header {
+  background-color: #1a1a1a;
+  border-bottom: 3px solid #2f2f2f;
+  padding: 14px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Cinzel", serif;
+}
+
+.logo {
+  font-size: 1.8rem;
+  color: #f2f2f2;
+  letter-spacing: 2px;
+}
+
+nav {
+  display: flex;
+  gap: 24px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #dcdcdc;
+  padding: 6px 12px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #b6c6d1;
+}
+
+.game-switch {
+  display: flex;
+  gap: 12px;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+
+.game-switch button {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  color: #aaa;
+  cursor: pointer;
+  font-family: "Cinzel", serif;
+}
+
+.game-switch button.active {
+  color: #d7e1e8;
+  font-weight: bold;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #bbb;
+  cursor: pointer;
+}
+
+.login:hover {
+  color: #d7e1e8;
+}
+
+.login-icon img {
+  border-radius: 50%;
+  border: 1px solid #555;
+}
+
+/* MAIN */
+main {
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+  font-family: "Cinzel", serif;
+  color: #f0f0f0;
+}
+
+p {
+  font-size: 1.05rem;
+  color: #cfcfcf;
+  margin-bottom: 40px;
+}
+
+/* Ornamento Gótico */
+.ornament {
+  margin: 25px auto;
+  width: 200px;
+}
+
+.ornament svg {
+  width: 100%;
+  height: auto;
+  stroke: #b6c6d1;
+  fill: none;
+  stroke-width: 1.5;
+}
+
+/* Content Boxes */
+.content-box {
+  background: #141414;
+  border: 2px solid #2a2a2a;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 30px 0;
+}
+
+.content-box h2 {
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+  font-family: "Cinzel", serif;
+  color: #eaeaea;
+}
+
+.content-box p {
+  text-align: justify;
+  color: #ccc;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  border-top: 2px solid #2a2a2a;
+  text-align: center;
+  color: #999;
+  font-size: 0.9rem;
+  font-family: "Cinzel", serif;
+}
